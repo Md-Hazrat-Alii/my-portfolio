@@ -1,0 +1,44 @@
+.card {
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    backdrop-filter: blur(12px);
+    background-color: #162033;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress::before{
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: #162033;
+}
+
+.progress-value{
+    position: relative;
+}

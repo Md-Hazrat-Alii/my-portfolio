@@ -1,0 +1,98 @@
+.avatar {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+}
+
+.avatar::before {
+    content: '';
+    position: absolute;
+    inset: -20px 0px;
+    background: linear-gradient(315deg, #373b44, #72e2ae);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+
+/* .avatar:hover::before {
+    inset: -10px 56px;(need to set in .avatar::before)
+    inset: -20px 0px;
+} */
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.avatar::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #0b1224;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.img-holder {
+    position: absolute;
+    inset: 6px;
+    border: none;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.icon {
+    color: #bfbecb;
+}
+
+.icon-container li {
+    transition: 0.6s;
+}
+
+.icon-container li:hover .icon {
+    color: black;
+}
+
+.arrow-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-container .arrow-icon {
+    color: #bfbecb;
+    cursor: pointer;
+    position: absolute;
+    animation: arrowAnimate 1s infinite;
+}
+
+@keyframes arrowAnimate {
+
+    0%,
+    100% {
+        transform: translateY(25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,.2,1);
+    }
+}
+
+.arrow-container:hover .arrow-icon {
+    color: #72e2ae;
+}
