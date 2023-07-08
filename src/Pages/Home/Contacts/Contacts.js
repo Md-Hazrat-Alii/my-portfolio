@@ -12,7 +12,7 @@ const Contacts = () => {
                 </div>
             </div>
             <div className='w-[92%] mx-auto flex'>
-                <div>
+                <div className='pr-4'>
                     <h4 className='text-[#fafafa] text-[22px] leading-[1.2] font-semibold mb-[12px]'>Contact Information</h4>
                     <p className='text-[#fafafa] text-[16px] leading-[1.6] font-normal mb-[12px]'>If you need make communication, please contact me without any hesitancy. I will be happy to have a conversation with you.</p>
                     <span className='inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20'></span>

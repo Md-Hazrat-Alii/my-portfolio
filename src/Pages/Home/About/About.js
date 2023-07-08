@@ -108,7 +108,7 @@ const About = () => {
                                 <div className='w-[120px]'>
                                     <strong>Contact </strong>
                                 </div>
-                                : +4917883297467
+                                : +491783567974
                             </div>
                         </div>
                         <button onClick={handleDownload} className="resume-btn">Download Resume</button>

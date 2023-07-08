@@ -12,13 +12,13 @@ const SkillCard = ({ name, value }) => {
 
             let endValue;
             if (index === 0) {
-                endValue = 90
+                endValue = 80
             }
             if (index === 1) {
-                endValue = 85
+                endValue = 75
             }
             if (index === 2) {
-                endValue = 100
+                endValue = 80
             }
             if (index === 3) {
                 endValue = 95

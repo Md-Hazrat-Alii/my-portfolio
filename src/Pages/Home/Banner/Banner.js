@@ -18,14 +18,14 @@ const Banner = () => {
                     <span className='text-white mr-[15px]'>Hi, I am</span>
                     <Typewriter
                         options={{
-                            strings: ['Md Hazrat Ali', 'MERN Stack Developer'],
+                            strings: ['Md Hazrat Ali', 'a MERN Stack Developer'],
                             autoStart: true,
                             loop: true,
                         }}
                     />
                 </h1>
                 <div className='w-[70%] text-center mb-[28px]'>
-                    <p className='text-[#bfbecb] text-[18px] leading-[1.5] font-normal opacity-[1]'>I am a MERN Stack Web Developer. I can provide clean, re-useable and organized code. I can also make faster web application by using ReactJS only.</p>
+                    <p className='text-[#bfbecb] text-[18px] leading-[1.5] font-normal opacity-[1]'>I am a MERN Stack Web Developer. I am passionate about staying updated with the latest web development trends and continuously improving my skills to deliver cutting-edge solutions.</p>
                 </div>
                 <div>
                     <ul className='icon-container flex gap-4'>
@@ -37,6 +37,11 @@ const Banner = () => {
                         <Link to='//www.linkedin.com/in/md-hazrat-ali-529847225/' target='_blank'>
                             <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae] hover:border-none'>
                                 <Icon className='icon' icon="bxl:linkedin-square" width="20" height="20" />
+                            </li>
+                        </Link>
+                        <Link to='//www.xing.com/profile/MdHazrat_Ali09121/' target='_blank'>
+                            <li className='flex justify-center items-center border border-[#ffffff26] rounded-[4px] w-[38px] h-[38px] hover:bg-[#72e2ae] hover:border-none'>
+                                <Icon className='icon' icon="bxl:xing" width="20" height="20" />
                             </li>
                         </Link>
                         <Link to='//github.com/Md-Hazrat-Alii' target='_blank'>

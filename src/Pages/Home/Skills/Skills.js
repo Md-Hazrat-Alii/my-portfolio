@@ -17,15 +17,29 @@ const Skills = () => {
       </div>
       <div>
         <div className='circles flex justify-between gap-7 pb-[56px] w-[92%] mx-auto'>
-          <SkillCard name='Front-end Development' value={90}></SkillCard>
-          <SkillCard name='Back-end Development' value={80}></SkillCard>
-          <SkillCard name='MERN Stack Development' value={100}></SkillCard>
+          <SkillCard name='Front-end Development' value={80}></SkillCard>
+          <SkillCard name='Back-end Development' value={70}></SkillCard>
+          <SkillCard name='MERN Stack Development' value={75}></SkillCard>
         </div>
         <div className='grid grid-cols-2 gap-7  w-[92%] mx-auto'>
           <div>
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               Javascript -
               <span className='text-primary'> (85%)</span>
+            </h5>
+            <progress className="progress progress-primary w-full h-[16px]" value="75" max="100"></progress>
+          </div>
+          <div>
+            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
+              TypeScrypt -
+              <span className='text-primary'> (60%)</span>
+            </h5>
+            <progress className="progress progress-primary w-full h-[16px]" value="75" max="100"></progress>
+          </div>
+          <div>
+            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
+              Python -
+              <span className='text-primary'> (80%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="75" max="100"></progress>
           </div>
@@ -89,6 +103,13 @@ const Skills = () => {
             <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
               daisyUi -
               <span className='text-primary'> (95%)</span>
+            </h5>
+            <progress className="progress progress-primary w-full h-[16px]" value="95" max="100"></progress>
+          </div>
+          <div>
+            <h5 className='text-[#fafafa] text-[18px] leading-[1.5] font-medium mb-[12px]'>
+              Jira -
+              <span className='text-primary'> (50%)</span>
             </h5>
             <progress className="progress progress-primary w-full h-[16px]" value="95" max="100"></progress>
           </div>
